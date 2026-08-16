@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8c1c2b"/>
+      <stop offset="100%" stop-color="#2b0a0f"/>
+    </linearGradient>
+    <pattern id="p" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <rect width="40" height="40" fill="none"/>
+      <circle cx="20" cy="20" r="1.4" fill="rgba(255,255,255,0.08)"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="url(#g)"/>
+  <rect width="600" height="450" fill="url(#p)"/>
+  <circle cx="300" cy="200" r="92" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="300" cy="200" r="66" fill="rgba(255,255,255,0.10)"/>
+  <text x="300" y="212" font-family="Georgia, serif" font-size="30" fill="#fff" text-anchor="middle" opacity="0.92">GP</text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="24" letter-spacing="2" fill="#fff" text-anchor="middle" opacity="0.9">OFFER</text>
+</svg>
